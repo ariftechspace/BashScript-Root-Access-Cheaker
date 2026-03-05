@@ -3,14 +3,12 @@ This project contains a simple Bash script (check.sh) that checks if the current
 It demonstrates the use of environment variables and conditional statements in Bash.
 
 
-
 ⚙️ How It Works
 - The script checks the value of the $UID variable:
     - UID = 0 → You are root.
     - UID ≠ 0 → You are a normal user.
 - If the script is run as a non-root user, it will display a warning message.
 - If run as root, it will allow access.
-
 
 
 ▶️ Usage
